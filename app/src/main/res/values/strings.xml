@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Manish Electronics</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter the password</string>
+    <string name="location">Select Region and Location For Order</string>
+    <string name="order">Enter Order Details</string>
+    <string name="Payment">Complete Your Payment</string>
+
+
+    <string-array name="Selected">
+        <item>Select Location...</item>
+    </string-array>
+
+    <string-array name="location">
+        <item>Select Location...</item>
+        <item>Nariman Point</item>
+        <item>Colaba</item>
+        <item>Dadar</item>
+        <item>Worli</item>
+        <item>Fort Area</item>
+        <item>Kalbadevi</item>
+        <item>Parel</item>
+        <item>Tardeo</item>
+    </string-array>
+
+    //Central
+
+    <string-array name="Central">
+        <item>Select Location...</item>
+        <item>Kurla</item>
+        <item>Ghatkoper</item>
+        <item>Thane</item>
+        <item>Dombivali</item>
+        <item>Kalyan</item>
+        <item>Titwala</item>
+        <item>Vasind</item>
+    </string-array>
+
+    //Western
+
+    <string-array name="Western">
+        <item>Select Location...</item>
+        <item>Churchgate</item>
+        <item>Marine Lines</item>
+        <item>Dadar</item>
+        <item>Bandra</item>
+        <item>Andheri</item>
+        <item>Borivali</item>
+        <item>Nalla sopara</item>
+        <item>Dahanu Road</item>
+    </string-array>
+
+    //Harbour
+
+    <string-array name="Harbour">
+        <item>Select Location...</item>
+        <item>CST</item>
+        <item>Vadala Road</item>
+        <item>Sandhurst Road</item>
+        <item>Dockyard Road</item>
+        <item>Cotton Green</item>
+        <item>Mankhurd</item>
+        <item>Vashi</item>
+        <item>Nerul</item>
+        <item>Panvel</item>
+    </string-array>
+
+    //Navi Mumbai
+
+
+    <string-array name="NaviMumbai">
+        <item>Select Location...</item>
+        <item>Airoli</item>
+        <item>Kharghar</item>
+        <item>Sanpada</item>
+        <item>Juinagar</item>
+        <item>Belapur CBD</item>
+        <item>Vashi</item>
+    </string-array>
+
+
+    <string-array name="region">
+        <item>Select Region...</item>
+        <item>Navi Mumbai</item>
+        <item>Western</item>
+        <item>Central</item>
+        <item>Harbour</item>
+    </string-array>
+
+    <string-array name="vendors">
+        <item>Select Vendor</item>
+        <item>Krishna Enterprises</item>
+        <item>Mahalakshmi Enterprises</item>
+        <item>G V Electronics</item>
+        <item>MGM Electronics</item>
+        <item>Rajlakshmi Electronics</item>
+        <item>Royal Enterprise</item>
+    </string-array>
+
+    <string-array name="product1">
+        <item>Products - Ceiling Fans</item>
+        <item>Orient Ceiling Fan</item>
+        <item>Bajaj New Ceiling Fan</item>
+        <item>Crompton Uranus Ceiling Fan</item>
+        <item>Havells Pacer Fan</item>
+        <item>Usha Ceiling Fan</item>
+    </string-array>
+
+    <string-array name="product2">
+        <item>Products - Geysers</item>
+        <item>Bajaj Flora 3Lt</item>
+        <item>Crompton DLX 3Lt</item>
+        <item>AO Smith 15Lt</item>
+        <item>Kenstar 15Lt</item>
+        <item>V-Guard 10Lt</item>
+    </string-array>
+
+    <string-array name="product3">
+        <item>Products - Mixer Griders</item>
+        <item>Prestige Elegant</item>
+        <item>Bajaj REX</item>
+        <item>WonderChef Nutri Blend</item>
+        <item>Orient Kitchen Kraft</item>
+        <item>Preethi Blue Leaf Plt</item>
+    </string-array>
+
+    <string-array name="product4">
+        <item>Products - LED TV</item>
+        <item>Onida 50IN</item>
+        <item>Samsung 24IN</item>
+        <item>LG 43IN</item>
+        <item>Sony Bravia 24IN</item>
+        <item>Philips 24IN</item>
+    </string-array>
+
+    <string name="title_activity_order">Order</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="Logout">Logout</string>
+
+
+</resources>

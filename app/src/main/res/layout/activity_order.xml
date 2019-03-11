@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dip">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order"
+        android:textSize="20dp"
+        android:textStyle="bold|normal"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/primary_text"/>
+
+    <Spinner
+        android:id="@+id/vendor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Products"
+        android:textSize="20dp"
+        android:textStyle="bold|normal"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/primary_text" />
+
+    <Spinner
+        android:id="@+id/products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/products">
+
+
+    <EditText android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quantity"
+            android:layout_marginBottom="20dp"
+            android:inputType="number"
+            android:text="0"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Spinner
+        android:id="@+id/products1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_products1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quantity"
+            android:layout_marginBottom="20dp"
+            android:inputType="number"
+            android:text="0"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/products2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_products2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quantity"
+            android:layout_marginBottom="20dp"
+            android:inputType="number"
+            android:text="0"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/products3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_products3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText android:id="@+id/et4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quantity"
+            android:layout_marginBottom="20dp"
+            android:inputType="number"
+            android:text="0"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/mybutton"
+            android:textColor="#ffffff"
+            android:padding="@dimen/fab_margin"/>
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel Order"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/mybutton"
+            android:textColor="#ffffff"
+            android:padding="@dimen/fab_margin"/>
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

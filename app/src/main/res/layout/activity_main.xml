@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android1="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android1:orientation="vertical"
+    android1:layout_height="match_parent"
+    android1:layout_width="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android1:id="@+id/toolbar"
+            android1:background="?attr/colorPrimary"
+            android1:layout_width="match_parent"
+            android1:layout_height="match_parent"
+            android1:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:layout_scrollFlags="scroll"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android1:orientation="vertical"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content">
+
+        <TextView android1:textSize="36sp"
+            android1:textStyle="bold"
+            android1:textColor="@color/colorAccent"
+            android1:gravity="center_horizontal"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:layout_marginTop="20dp"
+            android1:text="Welcome" />
+
+        <LinearLayout android1:orientation="vertical"
+            android1:paddingLeft="20dp"
+            android1:paddingRight="20dp"
+            android1:layout_width="match_parent"
+            android1:layout_height="match_parent"
+            android1:layout_marginTop="30dp">
+
+            <android.support.design.widget.TextInputLayout android1:id="@+id/input_layout_name"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content">
+
+                <EditText android1:id="@+id/et_name"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="wrap_content"
+                    android1:hint="@string/hint_name"
+                    android1:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout android1:id="@+id/input_layout_email"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content">
+
+                <EditText android1:id="@+id/et_email"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="wrap_content"
+                    android1:hint="@string/hint_email"
+                    android1:inputType="textEmailAddress" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout android1:id="@+id/input_layout_password"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                app:counterEnabled="true"
+                app:counterMaxLength="10"
+                app:passwordToggleEnabled="true">
+
+                <EditText android1:id="@+id/et_password"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="wrap_content"
+                    android1:hint="@string/hint_password"
+                    android1:inputType="textPassword"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout android1:orientation="horizontal"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content">
+
+                <android.support.v7.widget.SwitchCompat
+                    android1:layout_width="wrap_content"
+                    android1:layout_height="wrap_content"
+                    android1:text="" />
+
+                <TextView android1:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+                    android1:layout_width="match_parent"
+                    android1:layout_height="wrap_content"
+                    android1:text="Remember me?" />
+            </LinearLayout>
+            <Button
+                android1:id="@+id/btn_signup"
+                android1:layout_width="match_parent"
+                android1:layout_height="wrap_content"
+                android1:layout_marginTop="20dp"
+                android1:text="@string/btn_sign_up"
+                android1:background="@drawable/mybutton"
+                android1:textColor="#ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
